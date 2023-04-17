@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Spectral:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0.4rem;
+    border-bottom: 0.4px solid #ffffff;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+h1 {
+    font-size: 50;
+    font-family: 'Bebas Neue', cursive;
+    color: #ffffff;
+}
+
+#menu {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.menu-item {
+    font-size: 50;
+    font-family: 'Bebas Neue', cursive;
+    color: #ffffff;
+}
+
+button {
+    width: 7rem;
+    padding: 0.5rem 0.5rem;
+    background-color: #696565;
+    color: #ffffff;;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50;
+}
+
+button:hover {
+    background: #696565;
+    opacity: 50%;
+    cursor: pointer;
+}
+
+main  {
+    display: flex;
+    flex-direction: column;
+}
+
+#ellie, span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.ellie-img {
+    height: 400px;
+    margin-top: 2rem;
+}
+
+span {
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+}
+
+p {
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin: 2rem 1rem;
+}
+
+#joel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+.joel-img {
+    margin-top: 2rem;
+}
+
+footer {
+    border-top: 0.4px solid #ffffff;
+    padding: 2rem;
+}

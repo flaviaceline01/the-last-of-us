@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Spectral:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0.4rem;
+    border-bottom: 0.4px solid #ffffff;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+h1 {
+    font-size: 50;
+    font-family: 'Bebas Neue', cursive;
+    color: #ffffff;
+}
+
+
+#menu {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.menu-item {
+    font-size: 50;
+    font-family: 'Bebas Neue', cursive;
+    color: #ffffff;
+}
+
+button {
+    width: 7rem;
+    padding: 0.5rem 0.5rem;
+    background-color: #696565;
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50;
+}
+
+button:hover {
+    background: #696565;
+    opacity: 50%;
+    cursor: pointer;
+}
+
+main {
+    margin: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#estagio-co {
+    display: flex;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin-top: 2rem;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+em {
+    margin-top: 1rem;
+    color: #d7cd2b;
+    text-align: center;
+}
+
+.estagios {
+    margin-top: 4rem;
+}
+
+dt {
+    margin-top: 4rem;
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+dd {
+    font-family: 'Rubik', sans-serif;
+    color:#ffffff;
+}
+
+footer {
+    border-top: 0.4px solid #ffffff;
+    padding: 2rem;
+}
